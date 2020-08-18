@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Stow Hack Club</title>
+		<link rel="shortcut icon" type="image/png" href="https://stowwic.github.io/StowWICLogo.png">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<style>
+ 		#NavButton {
+ 			  display: inline-block;
+			  width: 19%;
+			  border: none;
+			  background-color: lightblue;
+			  color: black;
+			  padding: 14px 28px;
+			  font-size: 100%;
+			  cursor: pointer;
+			  text-align: center;
+ 		}
+ 		#NavButton:hover {
+ 			  background-color: #ddd;
+  			  color: black;
+ 		}
+ 		.aNavTag {
+ 			text-decoration: none;
+ 		}
+		.carousel-item {
+				height: 600px;
+				width: 100%;
+		}
+		.carousel-item img {
+				width: 100%;
+				height: 100%;
+		}
+		#header {
+			text-align: left;
+			color: lightblue;
+			font-size: 50px;
+			/*font-family: garamond;*/
+		}
+		#plaintext {
+			text-align: center;
+			color: lightblue;
+			font-size: 27px;
+			font-family: garamond;
+		}
+		</style>
+	</head>
+	<body>
+		<div style=" width: 100%; height: 175px;">
+		<h1 style="color:lightblue; font-size:60px; font-family: garamond; text-align: center; vertical-align: middle;" align="middle"><a href="https://stowwic.github.io"><img title="Home Page" align="left" width="170px" height="170px" src="https://stowwic.github.io/StowWICLogo.png" alt="Logo"></a>Stow Women In Computing Hack Club</h1>
+		</div>
+		<div align="center">
+			<nav>
+				<a class="aNavTag" href="https://stowwic.github.io/calender.html"><button id="NavButton" type="button">Calendar</button></a>
+				<a class="aNavTag" href="https://stowwic.github.io/eventdetails.html"><button id="NavButton" type="button">Event Details</button></a>
+				<a class="aNavTag" href="https://stowwic.github.io/interestform.html"><button id="NavButton" type="button">Interest Form</button></a>
+				<a class="aNavTag" href="https://stowwic.github.io/projects.html"><button id="NavButton" type="button">Project Showcase</button></a>
+				<a class="aNavTag" href="https://stowwic.github.io/aboutus.html"><button id="NavButton" type="button">About Us</button></a>
+			</nav>
+		</div>
+		<br>
+		<div style="width: 75%;margin: 0 auto; height: 75%;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="https://stowwic.github.io/LogoBanner.png" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="https://cdn.jsdelivr.net/gh/hackclub/meta@fc4c0d220426eb53a176e656ae7700d9dcd0b2c5/logos/banner_orpheus_hand_rotated.svg" alt="Second Slide"/>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		<br>
+		<h1 id="header">Announcements</h1><br>
+		<p id="plaintext">If you would like to become a member, please fill out the <a href="https://stowwic.github.io/interestform.html">Interest Form</a>!</p>
+		<br>
+		<br>
+		<br>
+		<br>
+	</body>
+</html>
